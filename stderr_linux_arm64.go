@@ -1,3 +1,5 @@
+//go:build (linux && arm) || (linux && arm64)
+
 package goutils
 
 import (
