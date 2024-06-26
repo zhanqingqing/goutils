@@ -1,6 +1,6 @@
-//go:build (linux && arm) || (linux && arm64)
+//go:build linux && (arm || arm64)
 
-package goutils
+package utils
 
 import (
 	"os"
