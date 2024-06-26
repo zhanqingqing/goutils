@@ -1,4 +1,4 @@
-//go:build linux && arm || arm64
+//go:build (linux && arm) || (linux && arm64)
 
 package utils
 
